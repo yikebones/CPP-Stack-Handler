@@ -64,12 +64,12 @@ int main() {
         int user_option;
         std::cout << "Welcome to SH (Stack Handler)!" << std::endl;
         std::cout << "!!! THIS C++ PROJECT WAS CONSTRUCTED PURELY FOR PRACTICE, NOTHING MORE !!!" << std::endl;
-        std::cout << "1. Push Value" << std::endl;
-        std::cout << "2. Pop Value" << std::endl;
-        std::cout << "3. Check if empty" << std::endl;
-        std::cout << "4. Check top value" << std::endl;
-        std::cout << "5. A Little About Stacks" << std::endl;
-        std::cout << "6. LET ME OUT (quit)" << std::endl;
+        std::cout << "1. Push Value            " << light_green << "(Appends given value to the stack)" << reset_color << std::endl;
+        std::cout << "2. Pop Value             " << light_green << "(Deletes the first value)" << reset_color << std::endl;
+        std::cout << "3. Check if empty        " << light_green << "(Checks whether the stack is empty or not)" << reset_color << std::endl;
+        std::cout << "4. Check top value       " << light_green << "(Prints the value of 'top')" << reset_color << std::endl;
+        std::cout << "5. A Little About Stacks " << light_green << "(Displays a little information about stacks)" << reset_color << std::endl;
+        std::cout << "6. LET ME OUT            " << red << "(Quit)" << reset_color << std::endl;
         std::cout << red << "Your stack currently: " << reset_color;
         s.display();
         std::cin >> user_option;
